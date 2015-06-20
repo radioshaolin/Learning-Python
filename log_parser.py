@@ -3,9 +3,13 @@
 # @Author: Ivan Zemlyaniy aka shaolinfm
 # @Date:   2015-06-20 01:46:28
 # @Last Modified by:   shaolinfm
-# @Last Modified time: 2015-06-20 16:18:49
+# @Last Modified time: 2015-06-20 16:27:33
 
-"""This program read file given as link as argument in comand line (https://dl.dropboxusercontent.com/u/1397435/mbox-short.txt) and figure out who has the sent the greatest number of mail messages. The program looks for 'From ' lines and takes the second word of those lines as the person who sent the mail."""
+#This program read file given as link as argument in comand line
+#(https://dl.dropboxusercontent.com/u/1397435/mbox-short.txt)
+#and figure out who has the sent the greatest number of mail messages.
+#The program looks for 'From ' lines and takes the second word of those lines
+#as the person who sent the mail.
 
 
 from sys import argv
