@@ -2,20 +2,20 @@
 # -*- coding: utf-8 -*-
 # @Author: Ivan Zemlyaniy aka shaolinfm
 # @Date:   2015-06-22 22:33:24
-# @Last Modified by:   Ivan Zemlyaniy
-# @Last Modified time: 2015-06-23 00:26:00
+# @Last Modified by:   shaolinfm
+# @Last Modified time: 2015-06-23 23:16:01
 
-def fibonacci_sequence(n):
+def recur_fibo(n):
     '''
         Recursive function of Fibonacci sequence
     '''
-    try:
-        def recur_fibo(n):
-            if n <= 1:
-                return n
-            else:
-                return(recur_fibo(n-1) + recur_fibo(n-2))
+    if n <= 1:
+        return n
+    else:
+        return(recur_fibo(n-1) + recur_fibo(n-2))
 
+def fibonacci_sequence(n):
+    try:
         # check if the number of terms is valid
         if n <= 0:
             print("Plese enter a positive integer")

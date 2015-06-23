@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # @Author: Ivan Zemlyaniy aka shaolinfm
 # @Date:   2015-03-20 01:46:28
-# @Last Modified by:   shaolinfm
-# @Last Modified time: 2015-06-20 16:40:39
+# @Last Modified by:   Ivan Zemlyaniy
+# @Last Modified time: 2015-06-23 22:33:12
 
 #This program read file given as link as argument in comand line
 #(https://dl.dropboxusercontent.com/u/1397435/mbox-short.txt)
@@ -38,7 +38,6 @@ def email_count(logfile):
         if bigcount is None or counts > bigcount :
             mostmail = mail
             bigcount = counts
-
 
     print mostmail, bigcount
 
