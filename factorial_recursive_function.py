@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # @Author: Ivan Zemlyaniy aka shaolinfm
 # @Date:   2015-06-22 22:33:24
-# @Last Modified by:   Ivan Zemlyaniy
-# @Last Modified time: 2015-06-22 23:04:59
+# @Last Modified by:   shaolinfm
+# @Last Modified time: 2015-06-25 17:04:03
 
 def factorial_recursion(n):
     '''
